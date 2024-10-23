@@ -1,0 +1,22 @@
+.App {}
+
+*::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+
+    /* Ширина всего элемента навигации */
+}
+
+*::-webkit-scrollbar-track {
+    background: #fff;
+    /* Цвет дорожки */
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #228C0E;
+    /* Цвет бегунка */
+    border-radius: 20px;
+    /* Округление бегунка */
+    border: 3px solid #228C0E;
+    /* Оформление границ бегунка */
+}
